@@ -9,7 +9,7 @@ class QueryRdsData < Formula
   def install
     bin.install 'query-rds-data.macos' => 'query-rds-data'
     chmod 0o555, "#{bin}/query-rds-data"
-    end
+  end
 
   test do
     system "#{bin}/query-rds-data", '--help'
