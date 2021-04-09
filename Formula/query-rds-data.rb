@@ -2,12 +2,12 @@
 
 class QueryRdsData < Formula
   desc 'Query AWS RDS Data from the command line'
-  homepage ''
-  url 'https://github.com/bruceadams/query-rds-data/releases/download/0.5.1/query-rds-data.macos'
-  sha256 'b4a6fc34d78ed71d542839b772793fbd5f8df15d1a9f0c7fa2ee2b98b5cb0da3'
+  homepage 'https://github.com/bruceadams/query-rds-data'
+  url 'https://github.com/bruceadams/query-rds-data/releases/download/1.0.0/query-rds-data.macos.universal'
+  sha256 '78ec8c4fb226d46cd4ca85f929bc11eaa2a5a1b33b965e0d99c4f64303dfb4bd'
 
   def install
-    bin.install 'query-rds-data.macos' => 'query-rds-data'
+    bin.install 'query-rds-data.macos.universal' => 'query-rds-data'
     chmod 0o555, "#{bin}/query-rds-data"
   end
 
