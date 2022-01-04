@@ -3,8 +3,8 @@
 class Yj < Formula
   desc 'Command line tool that converts YAML to JSON '
   homepage 'https://github.com/bruceadams/yj'
-  url 'https://github.com/bruceadams/yj/releases/download/1.1.34/yj.macos.universal'
-  sha256 'c5763ca79de7b4b71a23579b4f0e2363bac544bfc7238d3b2a99c7657a389255'
+  url 'https://github.com/bruceadams/yj/releases/download/1.2.0/yj.macos.universal'
+  sha256 '5c24292f2f0bafc8c6e4e7d584a229bcbc6f9bea7de5bb118f15f3197710acb2'
 
   def install
     bin.install 'yj.macos.universal' => 'yj'
