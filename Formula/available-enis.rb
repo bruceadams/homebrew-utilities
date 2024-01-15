@@ -1,20 +1,20 @@
 class AvailableEnis < Formula
   desc "Count and optionally delete available AWS Elastic Networks"
-  version "0.2.0"
+  version "0.2.1"
   on_macos do
     on_arm do
-      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.0/available-enis-aarch64-apple-darwin.tar.xz"
-      sha256 "d68ab3b9cd8d3ad7df32530b127f5dd8b2058733013bada5915e0e83bcdd96db"
+      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.1/available-enis-aarch64-apple-darwin.tar.xz"
+      sha256 "02b6602f2e62ea3f6948d9232df0b4f472fb5b4136f3659c59f4d288e9146231"
     end
     on_intel do
-      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.0/available-enis-x86_64-apple-darwin.tar.xz"
-      sha256 "8396668e099587d7a4fe096dfec064bc9d6424ceb730e9880bd795a3b1207d2a"
+      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.1/available-enis-x86_64-apple-darwin.tar.xz"
+      sha256 "30ea8c3edac7f9f90d91f31e0a49a2b1e70247ff334517eb627ea6574a6a8648"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.0/available-enis-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2100ddf067e4987c21d3572436801b5148ff3a183c145ef33a1365793f939662"
+      url "https://github.com/bruceadams/available-enis/releases/download/v0.2.1/available-enis-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "91955f93818480e4bf2a9ebc499bf4851fe2104f01f9dae853d8ae2c61e1b3bb"
     end
   end
   license "MIT OR Apache-2.0"
