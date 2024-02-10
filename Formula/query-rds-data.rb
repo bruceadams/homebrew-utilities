@@ -1,21 +1,21 @@
 class QueryRdsData < Formula
   desc "Query AWS RDS Data from the command line"
   homepage "https://github.com/bruceadams/query-rds-data"
-  version "3.0.0"
+  version "3.0.1"
   on_macos do
     on_arm do
-      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.0/query-rds-data-aarch64-apple-darwin.tar.gz"
-      sha256 "d1cfdd6970d5a5e7bca865ca993f9bc07a3e76c5c123f168aa9dcee12deb55e7"
+      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.1/query-rds-data-aarch64-apple-darwin.tar.gz"
+      sha256 "7002914af41f07b208da701cf952c9deeac15cfcba828c8e179a54e558840707"
     end
     on_intel do
-      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.0/query-rds-data-x86_64-apple-darwin.tar.gz"
-      sha256 "59b97d4f96cd33d676364cc305a0ca8d3fab48c4a3bc08b2c8f2bbf7fccdabc9"
+      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.1/query-rds-data-x86_64-apple-darwin.tar.gz"
+      sha256 "6df01ee82c0fc22831ce487b9e735a7d97e1076c768476770080d2de1380d073"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.0/query-rds-data-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7143e202f548b215523f42c98cbaea318558bae8c109e337bd0f78a7095de531"
+      url "https://github.com/bruceadams/query-rds-data/releases/download/v3.0.1/query-rds-data-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ef31181630c40c1ce7e0c99d25335bf92749c0c2523afdeb0813c88716da446c"
     end
   end
   license "Apache-2.0"
